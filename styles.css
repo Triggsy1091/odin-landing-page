@@ -28,6 +28,8 @@
     --quote-text-color: #1F2937;
     --quote-text-size: 36px;
     --fw-quote-text: 300;
+
+    --footer-text-color: #E5E7EB;
 }
 
 /* Preferred box-sizing value */
@@ -55,4 +57,54 @@ img {
 
 body {
     font-family: var(--ff-primary);
+    margin: 0;
 }
+
+header,
+main {
+    background-color: var(--bg-dark-color);
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul {
+    margin: 0;
+}
+
+.info {
+    background-color: var(--bg-light-color);
+}
+
+.quotes {
+    background-color: var(--bg-accent-color);
+}
+
+.cta {
+    background-color: var(--bg-light-color);
+}
+
+footer {
+    background-color: var(--bg-dark-color);
+}
+
+.footer-text {
+    color: var(--footer-text-color);
+}
+
+header,
+header > ul {
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+    padding-inline: 3rem;
+}
+
+h3 {
+    color: var(--hero-text-color)
+}
+
