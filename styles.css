@@ -1,0 +1,58 @@
+:root {
+    --ff-primary: 'Roboto', sans-serif;
+    --bg-dark-color: #1F2937;
+    --bg-light-color: #F9FAF8;
+    --bg-accent-color: #E5E7EB;
+    
+    --hero-text-size: 48px;
+    --fw-hero: 900;
+    --hero-text-color: #F9FAF8;
+    --hero-secondary-text-size: 18px;
+    --hero-secondary-text-color: #E5E7EB;
+
+    --header-link-text-size: 18px;
+    --header-link-text-color: #E5E7EB;
+
+    --header-logo-text-size: 24px;
+    --header-logo-text-color: #F9FAF8;
+
+    --button-color: #3882F6;
+
+    --bg-cta: #3882F6;
+
+    --header-info-text-size: 36px;
+    --header-info-text-color: #1F2937;
+    --fw-header-info-text: 900;
+
+    --bg-quote-section-color: #E5E7EB;
+    --quote-text-color: #1F2937;
+    --quote-text-size: 36px;
+    --fw-quote-text: 300;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+a, button {
+    cursor: revert;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol, ul, menu {
+    list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+    max-inline-size: 100%;
+    max-block-size: 100%;
+}
+
+body {
+    font-family: var(--ff-primary);
+}
